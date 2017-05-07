@@ -1,4 +1,7 @@
 Based on the work of [elasticsearch-synonyms](https://www.npmjs.com/package/elasticsearch-synonyms)
+
+[![Build Status](https://travis-ci.org/wejick/go-elasticsearch-synonyms.svg?branch=master)](https://travis-ci.org/wejick/go-elasticsearch-synonyms) [![Coverage Status](https://coveralls.io/repos/github/wejick/go-elasticsearch-synonyms/badge.svg?branch=master)](https://coveralls.io/github/wejick/go-elasticsearch-synonyms?branch=master)
+
 # Synonyms are hard, lets face it
 
 Well, they aren't really, just check out a Thesaurus. However, the difficulty comes when we use phrases for synonyms. As Solr and Elasticsearch parse with a space ' ', phrases are broken up and our results are not what we expect. Like I say, synonyms are hard.
